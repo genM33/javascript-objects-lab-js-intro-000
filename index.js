@@ -14,3 +14,5 @@ function updateObjectWithKeyAndValue(obj, key, value) {
   newRecipes;
   recipes;
 }
+
+console.log(updateObjectWithKeyAndValue(recipes, 'Sauce': 'Tomato'));
