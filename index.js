@@ -33,4 +33,4 @@ function destructivelyDeleteFromObjectByKey(obj, key) {
   return obj;
 }
 
-console.log(destructivelyDeleteFromObjectByKey(recipes, 'Pasta'));
+// console.log(destructivelyDeleteFromObjectByKey(recipes, 'Pasta'));
