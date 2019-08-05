@@ -7,4 +7,4 @@ const recipes = {
   'Mushroom Soup': '1 can'
 };
 
-console.log(recipes);
+// console.log(recipes);
