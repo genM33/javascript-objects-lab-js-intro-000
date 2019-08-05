@@ -20,4 +20,4 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
   return recipes;
 };
 
-console.log(destructivelyUpdateObjectWithKeyAndValue(recipes, 'Sour and Cream', '3 cups'));
+// console.log(destructivelyUpdateObjectWithKeyAndValue(recipes, 'Sour and Cream', '3 cups'));
