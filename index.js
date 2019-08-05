@@ -27,4 +27,10 @@ function deleteFromObjectByKey(obj, key) {
   return newObj;
 }
 
-console.log(deleteFromObjectByKey(recipes, 'Cooking Oil'));
+// console.log(deleteFromObjectByKey(recipes, 'Cooking Oil'));
+function destructivelyDeleteFromObjectByKey(obj, key) {
+  delete obj[key];
+  return obj;
+}
+
+console.log(destructivelyDeleteFromObjectByKey(recipes, 'Flour'));
