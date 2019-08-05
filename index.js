@@ -16,8 +16,7 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 
 // console.log(updateObjectWithKeyAndValue(recipes, 'Sauce', 'Tomato'));
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
-  recipes[key] = value;
-  return recipes;
+  return Object.assign(obj, {[key]: value});
 };
 
 // console.log(destructivelyUpdateObjectWithKeyAndValue(recipes, 'Sour and Cream', '3 cups'));
